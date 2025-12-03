@@ -7,10 +7,10 @@ Predicting platinum-based drug response in ovarian cancer (TCGA-OV) patients who
 ## Models Included
 | Omics Type       | Best Model      | Features | AUC (internal test) |
 |------------------|-----------------|----------|---------------------|
-| DNA Methylation  | CatBoost        | ~2k      | 0.89                |
-| Proteomics (RPPA)| XGBoost         | 192      | 0.91                |
-| Transcriptome    | RandomForest    | ~1k      | 0.87                |
-| Early Fusion     | RandomForest    | ~4k      | **0.94**            |
+| DNA Methylation  | CatBoost        | 256      | 0.96                |
+| Proteomics (RPPA)| XGBoost         | 245      | 0.96                |
+| Transcriptome    | RandomForest    | 191      | 0.93                |
+| Early Fusion     | RandomForest    | 143      | 0.94                |
 
 ## Quick Start
 
